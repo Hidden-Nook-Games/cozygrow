@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- CozyGrow Platzhalter-Artwork: Cozy Kush, Stufe 4 (Vorbluete). -->
+  <defs>
+    <linearGradient id="potBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C4794C"/>
+      <stop offset="1" stop-color="#8E4E2C"/>
+    </linearGradient>
+    <linearGradient id="potRim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D9915F"/>
+      <stop offset="1" stop-color="#A6603A"/>
+    </linearGradient>
+    <path id="leaflet" d="M0 0C-6-12-7-28 0-44 7-28 6-12 0 0Z"/>
+    <g id="fan">
+      <use href="#leaflet" transform="rotate(-58) scale(0.5)"/>
+      <use href="#leaflet" transform="rotate(-31) scale(0.76)"/>
+      <use href="#leaflet"/>
+      <use href="#leaflet" transform="rotate(31) scale(0.76)"/>
+      <use href="#leaflet" transform="rotate(58) scale(0.5)"/>
+    </g>
+  </defs>
+
+  <ellipse cx="100" cy="193" rx="50" ry="8" fill="#000" opacity="0.22"/>
+
+  <g>
+    <path d="M64 148h72l-8 38a8 8 0 0 1-8 7H80a8 8 0 0 1-8-7Z" fill="url(#potBody)"/>
+    <path d="M72 150c-1 14 0 28 3 41h-4a8 8 0 0 1-6-6Z" fill="#fff" opacity="0.1"/>
+    <rect x="54" y="129" width="92" height="19" rx="9" fill="url(#potRim)"/>
+    <ellipse cx="100" cy="134" rx="38" ry="7.5" fill="#3E2C1D"/>
+    <ellipse cx="100" cy="133" rx="38" ry="7.5" fill="#4A3524"/>
+  </g>
+
+  <g>
+    <path d="M100 134V60" stroke="#4E8B48" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <g fill="#3D8047">
+      <use href="#fan" transform="translate(100,126) rotate(-70) scale(0.6)"/>
+      <use href="#fan" transform="translate(100,126) rotate(70) scale(0.6)"/>
+    </g>
+    <g fill="#47904D">
+      <use href="#fan" transform="translate(100,108) rotate(-60) scale(0.54)"/>
+      <use href="#fan" transform="translate(100,108) rotate(60) scale(0.54)"/>
+    </g>
+    <g fill="#55A657">
+      <use href="#fan" transform="translate(100,88) rotate(-50) scale(0.45)"/>
+      <use href="#fan" transform="translate(100,88) rotate(50) scale(0.45)"/>
+    </g>
+    <g fill="#6BBE69">
+      <use href="#fan" transform="translate(100,64) scale(0.36)"/>
+    </g>
+
+    <!-- Erste, noch blasse Bluetenansaetze. -->
+    <g fill="#8FCB86">
+      <ellipse cx="100" cy="56" rx="6" ry="10"/>
+      <ellipse cx="86" cy="86" rx="4" ry="6.5" transform="rotate(-14 86 86)"/>
+      <ellipse cx="114" cy="86" rx="4" ry="6.5" transform="rotate(14 114 86)"/>
+    </g>
+  </g>
+
+  <g fill="#E9B65F" opacity="0.5">
+    <circle cx="142" cy="76" r="1.8"/>
+    <circle cx="58" cy="94" r="1.3"/>
+  </g>
+</svg>

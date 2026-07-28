@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- CozyGrow Platzhalter-Artwork: Cozy Kush, Stufe 0 (Samen).
+       Alle sieben Stufen teilen denselben Topf, dieselbe Palette und
+       denselben weichen Formstil. Austausch gegen finale Artworks ist eine
+       reine Datenaenderung (Pfade stehen in src/game/content/strains.ts). -->
+  <defs>
+    <linearGradient id="potBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C4794C"/>
+      <stop offset="1" stop-color="#8E4E2C"/>
+    </linearGradient>
+    <linearGradient id="potRim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D9915F"/>
+      <stop offset="1" stop-color="#A6603A"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="100" cy="193" rx="50" ry="8" fill="#000" opacity="0.22"/>
+
+  <g>
+    <path d="M64 148h72l-8 38a8 8 0 0 1-8 7H80a8 8 0 0 1-8-7Z" fill="url(#potBody)"/>
+    <path d="M72 150c-1 14 0 28 3 41h-4a8 8 0 0 1-6-6Z" fill="#fff" opacity="0.1"/>
+    <rect x="54" y="129" width="92" height="19" rx="9" fill="url(#potRim)"/>
+    <ellipse cx="100" cy="134" rx="38" ry="7.5" fill="#3E2C1D"/>
+    <ellipse cx="100" cy="133" rx="38" ry="7.5" fill="#4A3524"/>
+  </g>
+
+  <!-- Der Samen: halb in der Erde, mit warmem Glanzpunkt. -->
+  <g>
+    <ellipse cx="100" cy="130" rx="8" ry="6" fill="#7A4F2E"/>
+    <ellipse cx="100" cy="129" rx="8" ry="5.4" fill="#95643B"/>
+    <ellipse cx="97.5" cy="127.5" rx="2.6" ry="1.7" fill="#D9A56E" opacity="0.75"/>
+  </g>
+
+  <g fill="#E9B65F" opacity="0.55">
+    <circle cx="128" cy="116" r="1.8"/>
+    <circle cx="74" cy="122" r="1.3"/>
+  </g>
+</svg>
